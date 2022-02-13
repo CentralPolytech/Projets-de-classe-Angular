@@ -1,6 +1,4 @@
-container {
+div {
   align-items: center;
-  align-content: center;
-  horiz-align: center;
-  alignment: center;
+  text-align: center;
 }
