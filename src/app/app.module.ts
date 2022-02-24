@@ -11,6 +11,7 @@ import { Somme2Component } from './Component/somme2/somme2.component';
 import { NgStyleComponent } from './Directive/ng-style/ng-style.component';
 import { MiniWordComponent } from './Directive/mini-word/mini-word.component';
 import {FormsModule} from "@angular/forms";
+import { NgClassComponent } from './Directive/ng-class/ng-class.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {FormsModule} from "@angular/forms";
     SommeComponent,
     Somme2Component,
     NgStyleComponent,
-    MiniWordComponent
+    MiniWordComponent,
+    NgClassComponent
   ],
     imports: [
         BrowserModule,
