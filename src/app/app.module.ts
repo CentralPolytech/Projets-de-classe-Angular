@@ -12,6 +12,7 @@ import { NgStyleComponent } from './Directive/ng-style/ng-style.component';
 import { MiniWordComponent } from './Directive/mini-word/mini-word.component';
 import {FormsModule} from "@angular/forms";
 import { NgClassComponent } from './Directive/ng-class/ng-class.component';
+import { HighlightDirective } from './Directive/highlight.directive';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { NgClassComponent } from './Directive/ng-class/ng-class.component';
     Somme2Component,
     NgStyleComponent,
     MiniWordComponent,
-    NgClassComponent
+    NgClassComponent,
+    HighlightDirective
   ],
     imports: [
         BrowserModule,
