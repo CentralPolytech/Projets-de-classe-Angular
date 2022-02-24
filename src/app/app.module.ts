@@ -8,6 +8,9 @@ import { SecondComponent } from './Component/second/second.component';
 import { ColorComponent } from './Component/color/color.component';
 import { SommeComponent } from './Component/somme/somme.component';
 import { Somme2Component } from './Component/somme2/somme2.component';
+import { NgStyleComponent } from './Directive/ng-style/ng-style.component';
+import { MiniWordComponent } from './Directive/mini-word/mini-word.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -16,12 +19,15 @@ import { Somme2Component } from './Component/somme2/somme2.component';
     SecondComponent,
     ColorComponent,
     SommeComponent,
-    Somme2Component
+    Somme2Component,
+    NgStyleComponent,
+    MiniWordComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        FormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
